@@ -1,0 +1,146 @@
+main{
+  padding-top: 13.6vh;
+}
+
+header {
+  background-color: #000000;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  position: fixed;
+  p{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0 auto;
+  }
+  span{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    width: 10%;
+  }
+  .criar{
+    background-color:rgb(54, 179, 54);
+    width: fit-content;
+    height: fit-content;
+    padding: 7px;
+    font-size: 20px;
+  }
+  .salvar{
+    background-color:rgb(54, 179, 54);
+    width: fit-content;
+    height: fit-content;
+    padding: 7px;
+    font-size: 20px;
+  }
+}
+
+.cadastro {
+  color: #000000;
+  font-size: calc(20px);
+  font-weight: bold;
+}
+
+.ficha{
+  width: 600px;
+  margin-right: 2%;
+  display: inline-block;
+  justify-content: center;
+}
+
+
+img{
+  height: 150px;
+  width: auto;
+}
+
+.containerBotoes{
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.botao{
+  height: 2em;
+  margin: 0.5em;
+  width: 4em;
+  border-radius: 0.5em;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.capaBG{
+  text-align: center;
+  margin: auto;
+}
+.tabela-wrapper{
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  justify-content: center;
+  background-color:rgb(71, 71, 71);
+}
+.coluna-jogadores{
+  text-align: center;
+  width:fit-content;
+  padding: 1em;
+}
+.coluna-nome{
+  width: fit-content;
+}
+.coluna-estilo{
+  width: fit-content;
+}
+.btn-wrapper{
+  width:fit-content;
+  text-align: center;
+  justify-content:center;
+}
+.btn-wrapper-criar{
+  display: flex;
+  justify-content:center;
+  background-color: rgb(0, 0, 0);
+}
+td{
+  width: 24em;
+  padding: 1em 2em;
+  font-weight: bold;
+}
+.edit{
+  background-color:darkorange;
+}
+.delete{
+  background-color:rgb(216, 0, 0);
+}
+
+
+tbody tr:nth-child(odd){
+  background-color: #4C8BF5;
+}
+tbody tr:nth-child(even){
+  background-color:cornflowerblue;
+}
+
+th{
+  background-color:cornflowerblue;
+}
+
+.tabela-bg{
+  border-style:groove;
+}
+
+span{.campo{
+  color : black;
+}}
